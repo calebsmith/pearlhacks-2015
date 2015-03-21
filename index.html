@@ -1,0 +1,2591 @@
+<!DOCTYPE html>
+<!--
+  Copyright 2010 Google Inc.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+
+  Original slides: Marcin Wichary (mwichary@google.com)
+  Modifications: Ernest Delgado (ernestd@google.com)
+                 Alex Russell (slightlyoff@chromium.org)
+
+  landslide modifications: Adam Zapletal (adamzap@gmail.com)
+                           Nicolas Perriault (nperriault@gmail.com)
+-->
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Getting Started with Front-End Web Development</title>
+    <!-- Styles -->
+    
+    <link rel="stylesheet" media="print" href="caktus-theme/css/print.css">
+    <link rel="stylesheet" media="screen, projection" href="caktus-theme/css/screen.css">
+    
+    
+    <!-- /Styles -->
+    <!-- Javascripts -->
+    
+    <script type="text/javascript" src="/home/csmith/Envs/pearlhacks/src/landslide/src/landslide/themes/default/js/slides.js"></script>
+    
+    
+      
+      <script type="text/javascript" src="slides.js"></script>
+      
+    
+    <!-- /Javascripts -->
+</head>
+<body>
+  <div id="blank"></div>
+  <div class="presentation">
+    <div id="current_presenter_notes">
+      <div id="presenter_note"></div>
+    </div>
+    <div class="slides">
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Getting Started with Front-End Web Development</h1></header>
+            
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              1/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>HTML Reference</h1></header>
+            
+            
+            <section><p><a class="reference external" href="https://developer.mozilla.org/en-US/docs/Web/HTML">https://developer.mozilla.org/en-US/docs/Web/HTML</a></p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              2/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>HTML Overview</h1></header>
+            
+            
+            <section><ul class="simple">
+<li>Basis of all web pages</li>
+<li>A markup language for documents</li>
+<li>Other technologies <em>enhance</em> the page (such as CSS, JavaScript, Flash, AJAX)</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              3/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>History</h1></header>
+            
+            
+            <section><ul class="simple">
+<li>Originally designed by Tim Berners-Lee at CERN for reading rich text documents on work stations</li>
+<li>Various versions for years, HTML5 is standard ~everywhere for past few years</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              4/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Semantics</h1></header>
+            
+            
+            <section><ul class="simple">
+<li>HTML is content</li>
+<li>Content is separate from presentation</li>
+<li>Consists of a pre-defined set of elements</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              5/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>HTML Tags</h1></header>
+            
+            
+            <section><ul class="simple">
+<li>Tags use angle brackets, such as <cite>&lt;p&gt;</cite></li>
+<li>Often have a corresponding closing tag, such as <cite>&lt;/p&gt;</cite></li>
+<li>Can be nested within each other</li>
+</ul>
+<pre><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+    <span class="nt">&lt;head&gt;</span>
+        <span class="nt">&lt;title&gt;</span>Title of the page in the browser window<span class="nt">&lt;/title&gt;</span>
+    <span class="nt">&lt;/head&gt;</span>
+    <span class="nt">&lt;body&gt;</span>
+        <span class="nt">&lt;p&gt;</span>The simplest possible web page<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</pre></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              6/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>JSFiddle</h1></header>
+            
+            
+            <section><p><a class="reference external" href="http://jsfiddle.net/qpqfvdrL/">http://jsfiddle.net/qpqfvdrL/</a></p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              7/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>HTML Attributes</h1></header>
+            
+            
+            <section><ul class="simple">
+<li>Tags can have attributes.</li>
+</ul>
+<pre><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;www.google.com&quot;</span><span class="nt">&gt;</span>A link to google<span class="nt">&lt;/a&gt;</span>
+</pre>
+<ul class="simple">
+<li>The href=&quot;&quot; part is an attribute</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              8/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Example Content Tags</h1></header>
+            
+            
+            <section><pre><span class="nt">&lt;h1&gt;</span>A very large heading<span class="nt">&lt;/h1&gt;</span>
+<span class="nt">&lt;h2&gt;</span>A smaller heading<span class="nt">&lt;/h2&gt;</span>
+<span class="nt">&lt;h3&gt;</span>Smaller heading still<span class="nt">&lt;/h3&gt;</span>
+<span class="nt">&lt;p&gt;</span>A paragraph<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;http://www.twitter.com&quot;</span><span class="nt">&gt;</span>A link to twitter<span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;img</span> <span class="na">alt=</span><span class="s">&quot;Google&quot;</span> <span class="na">src=</span><span class="s">&quot;http://www.google.com/images/srpr/logo11w.png&quot;</span><span class="nt">/&gt;</span>
+</pre></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              9/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Nesting Warning</h1></header>
+            
+            
+            <section><ul class="simple">
+<li>Tags should be closed appropriately when nesting. E.g:</li>
+</ul>
+<pre><span class="c">&lt;!-- Valid --&gt;</span>
+<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;www.google.com&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;h1&gt;</span> Nice heading<span class="nt">&lt;/h1&gt;</span>
+<span class="nt">&lt;/a&gt;</span>
+</pre>
+<pre><span class="c">&lt;!-- Invalid --&gt;</span>
+<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;www.google.com&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;h1&gt;</span> Nice heading<span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;/h1&gt;</span>
+</pre></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              10/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>HTML Entities</h1></header>
+            
+            
+            <section><ul class="simple">
+<li>Can't put <cite>&lt;p&gt;</cite> in the middle of your text. It will be used as a tag</li>
+<li>Must use entities</li>
+</ul>
+<pre><span class="ni">&amp;gt;</span> &gt;
+<span class="ni">&amp;lt;</span> <span class="err">&lt;</span>
+<span class="ni">&amp;amp;</span> <span class="err">&amp;</span>
+<span class="ni">&amp;quot;</span> &quot;
+</pre></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              11/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Pause</h1></header>
+            
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              12/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Semantic Tags</h1></header>
+            
+            
+            <section><pre><span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;content&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;p&gt;</span>Content <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;inline-emphasis&quot;</span><span class="nt">&gt;</span>here<span class="nt">&lt;/span&gt;&lt;/p&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</pre>
+<ul class="simple">
+<li>Div - A section or block that goes together</li>
+<li>span - Like a div, but inline</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              13/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Id vs. Class</h1></header>
+            
+            
+            <section><ul>
+<li><p class="first">id - unique on page, like a user</p>
+</li>
+<li><p class="first">class - not unique, like a group</p>
+</li>
+<li><p class="first">Used with CSS and JavaScript:</p>
+<blockquote>
+<ul class="simple">
+<li>Choose <strong>the</strong> element with an id</li>
+<li>Choose the <strong>elements</strong> with a class</li>
+</ul>
+</blockquote>
+</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              14/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>CSS</h1></header>
+            
+            
+            <section><ul class="simple">
+<li>A declarative language for specifying how a document is presented</li>
+<li>&quot;styling&quot;</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              15/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Reference</h1></header>
+            
+            
+            <section><p><a class="reference external" href="https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started">https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started</a></p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              16/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>CSS Syntax</h1></header>
+            
+            
+            <section><ul class="simple">
+<li>selector</li>
+<li>property</li>
+<li>value</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              17/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>CSS Syntax Example</h1></header>
+            
+            
+            <section><pre><span class="nt">p</span> <span class="p">{</span>
+    <span class="k">text-align</span><span class="o">:</span> <span class="k">left</span><span class="p">;</span>
+<span class="p">}</span>
+</pre>
+<ul class="simple">
+<li>p - selector</li>
+<li>text-align - property</li>
+<li>left - value</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              18/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>CSS Semantics</h1></header>
+            
+            
+            <section><ul>
+<li><p class="first">For content matching this <em>selector</em>:</p>
+<blockquote>
+<ul class="simple">
+<li>Set the <em>property</em> to this <em>value</em></li>
+</ul>
+</blockquote>
+</li>
+</ul>
+<pre><span class="nt">p</span> <span class="p">{</span>
+    <span class="k">text-align</span><span class="o">:</span> <span class="k">left</span><span class="p">;</span>
+<span class="p">}</span>
+</pre>
+<ul class="simple">
+<li>For content in a p tag, set the text-alignment to left</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              19/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Id vs. Class</h1></header>
+            
+            
+            <section><pre><span class="o">&lt;</span><span class="nt">p</span> <span class="nt">class</span><span class="o">=</span><span class="s1">&#39;emphasized&#39;</span> <span class="nt">id</span><span class="o">=</span><span class="s1">&#39;desc&#39;</span><span class="o">&gt;</span><span class="nt">Information</span><span class="o">&lt;/</span><span class="nt">p</span><span class="o">&gt;</span>
+
+<span class="o">//</span> <span class="nt">All</span> <span class="nt">elements</span> <span class="nt">with</span> <span class="nt">emphasized</span> <span class="nt">class</span> <span class="nt">will</span> <span class="nt">be</span> <span class="nt">bold</span>
+<span class="nc">.emphasized</span> <span class="p">{</span>
+    <span class="k">font-weight</span><span class="o">:</span> <span class="k">bold</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="o">//</span> <span class="nt">The</span> <span class="nt">element</span> <span class="nt">with</span> <span class="nt">desc</span> <span class="nt">id</span> <span class="nt">will</span> <span class="nt">have</span> <span class="nt">a</span> <span class="nt">margin</span>
+<span class="nf">#desc</span> <span class="p">{</span>
+    <span class="k">margin</span><span class="o">:</span> <span class="m">4px</span> <span class="m">2px</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              20/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>CSS Selectors</h1></header>
+            
+            
+            <section><ul class="simple">
+<li>Combining tags, class, and id</li>
+</ul>
+<pre><span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">&quot;emphasized&quot;</span><span class="nt">&gt;</span>Content<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">id=</span><span class="s">&quot;desc&quot;</span><span class="nt">&gt;</span>Content<span class="nt">&lt;/p&gt;</span>
+</pre>
+<pre><span class="o">//</span> <span class="nt">A</span> <span class="nt">p</span> <span class="nt">tag</span> <span class="nt">with</span> <span class="nt">emphasized</span> <span class="nt">class</span>
+<span class="nt">p</span><span class="nc">.emphasized</span> <span class="p">{</span>
+    <span class="k">font-weight</span><span class="o">:</span> <span class="k">bold</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="o">//</span> <span class="nt">A</span> <span class="nt">p</span> <span class="nt">tag</span> <span class="nt">with</span> <span class="nt">desc</span> <span class="nt">id</span>
+<span class="nt">p</span><span class="nf">#desc</span> <span class="p">{</span>
+    <span class="k">margin</span><span class="o">:</span> <span class="m">4px</span> <span class="m">2px</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              21/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>CSS Selector Group</h1></header>
+            
+            
+            <section><ul class="simple">
+<li>Combine selectors into comma-separated list</li>
+</ul>
+<pre><span class="o">//</span> <span class="nt">elements</span> <span class="nt">with</span> <span class="nt">either</span> <span class="nt">class</span>
+<span class="nc">.emphasized</span><span class="o">,</span> <span class="nc">.interesting</span> <span class="p">{</span>
+    <span class="k">font-size</span><span class="o">:</span> <span class="m">10px</span><span class="p">;</span>
+<span class="p">}</span>
+</pre>
+<ul class="simple">
+<li>, - OR</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              22/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>CSS Descendant Combinator</h1></header>
+            
+            
+            <section><ul class="simple">
+<li>Combine selectors into space-separated list</li>
+<li>A B {... -&gt; B is a descendant of A</li>
+</ul>
+<pre><span class="o">//</span> <span class="nt">Element</span> <span class="nt">with</span> <span class="nt">interesting</span> <span class="nt">class</span><span class="o">,</span> <span class="nt">inside</span> <span class="nt">element</span> <span class="nt">with</span> <span class="nt">emphasized</span> <span class="nt">class</span>
+<span class="nc">.emphasized</span> <span class="nc">.interesting</span> <span class="p">{</span>
+    <span class="k">font-style</span><span class="o">:</span> <span class="k">italic</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              23/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>CSS Selectors</h1></header>
+            
+            
+            <section><ul class="simple">
+<li>Combining tags, class, and id</li>
+</ul>
+<pre><span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">&quot;emphasized&quot;</span><span class="nt">&gt;</span>Content<span class="nt">&lt;/p&gt;</span>
+
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;emphasized</span><span class="nt">&gt;&lt;p&gt;</span>Content<span class="nt">&lt;/p&gt;&lt;/span&gt;</span>
+</pre>
+<pre><span class="o">//</span> <span class="nt">A</span> <span class="nt">p</span> <span class="nt">tag</span> <span class="nt">with</span> <span class="nt">emphasized</span> <span class="nt">class</span>
+<span class="nt">p</span><span class="nc">.emphasized</span> <span class="p">{</span>
+    <span class="k">font-weight</span><span class="o">:</span> <span class="k">bold</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="o">//</span> <span class="nt">A</span> <span class="nt">p</span> <span class="nt">tag</span> <span class="nt">of</span> <span class="nt">an</span> <span class="nt">emphasized</span> <span class="nt">class</span> <span class="nt">element</span> <span class="o">(</span><span class="nt">likely</span> <span class="nt">div</span> <span class="nt">or</span> <span class="nt">span</span><span class="o">)</span>
+<span class="nt">p</span> <span class="nc">.emphasized</span> <span class="p">{</span>
+    <span class="k">font-weight</span><span class="o">:</span> <span class="k">bold</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              24/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Fiddle with Box Model</h1></header>
+            
+            
+            <section><p><a class="reference external" href="http://jsfiddle.net/qpqfvdrL/1/">http://jsfiddle.net/qpqfvdrL/1/</a></p>
+<p><a class="reference external" href="http://www.w3schools.com/css/css_boxmodel.asp">http://www.w3schools.com/css/css_boxmodel.asp</a></p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              25/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Pause</h1></header>
+            
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              26/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Local Setup</h1></header>
+            
+            
+            <section><ul class="simple">
+<li>Create a file in a text editor. Save as filename.html</li>
+<li>Go to <a class="reference external" href="file:///path/to/filename.html">file:///path/to/filename.html</a> in a browser</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              27/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Chrome Inspector Tools</h1></header>
+            
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              28/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>JavaScript</h1></header>
+            
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              29/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Reference</h1></header>
+            
+            
+            <section><p><a class="reference external" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">https://developer.mozilla.org/en-US/docs/Web/JavaScript</a></p>
+<p><a class="reference external" href="http://superherojs.com/">http://superherojs.com/</a></p>
+<p><a class="reference external" href="https://github.com/airbnb/javascript">https://github.com/airbnb/javascript</a></p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              30/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>JavaScript</h1></header>
+            
+            
+            <section><ul class="simple">
+<li>Original purpose - animations and effects</li>
+<li>Allows for programming that runs in a browser</li>
+<li>Can now run outside of a browser (Node.js)</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              31/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>JavaScript Design</h1></header>
+            
+            
+            <section><ul class="simple">
+<li>Somewhat OOP, somewhat FP</li>
+<li>Dynamic and weakly typed</li>
+<li>Syntax is C/Java-like</li>
+<li>Closer to Python/Ruby than C/Java in semantics</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              32/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>JavaScript Syntax</h1></header>
+            
+            
+            <section><pre><span class="kd">var</span> <span class="nx">add</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">a</span><span class="p">,</span> <span class="nx">b</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="nx">a</span> <span class="o">+</span> <span class="nx">b</span><span class="p">;</span>
+<span class="p">}</span>
+</pre>
+<ul class="simple">
+<li>{}- block</li>
+<li>; - statement</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              33/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>JavaScript Data</h1></header>
+            
+            
+            <section><ul class="simple">
+<li>Numbers, Strings, Booleans, null, undefined</li>
+</ul>
+<pre><span class="kd">var</span> <span class="nx">a</span> <span class="o">=</span> <span class="mi">3</span><span class="p">;</span>
+<span class="kd">var</span> <span class="nx">b</span> <span class="o">=</span> <span class="mf">3.4</span><span class="p">;</span>
+<span class="kd">var</span> <span class="nx">c</span> <span class="o">=</span> <span class="s1">&#39;Oh hai&#39;</span><span class="p">;</span>
+<span class="kd">var</span> <span class="nx">d</span> <span class="o">=</span> <span class="kc">null</span><span class="p">;</span>
+<span class="kd">var</span> <span class="nx">e</span> <span class="o">=</span> <span class="kc">undefined</span><span class="p">;</span>
+</pre></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              34/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Functions</h1></header>
+            
+            
+            <section><pre><span class="kd">function</span><span class="p">(</span><span class="nx">arg</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">arg</span><span class="p">);</span>
+    <span class="k">return</span> <span class="nx">arg</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              35/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Functions</h1></header>
+            
+            
+            <section><pre><span class="c1">// Function declaration</span>
+<span class="kd">function</span> <span class="nx">func</span><span class="p">(</span><span class="nx">arg</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">arg</span><span class="p">);</span>
+    <span class="k">return</span> <span class="nx">arg</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="c1">// Function expression</span>
+<span class="kd">var</span> <span class="nx">func</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">arg</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">arg</span><span class="p">);</span>
+    <span class="k">return</span> <span class="nx">arg</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              36/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Inline Function</h1></header>
+            
+            
+            <section><pre><span class="kd">var</span> <span class="nx">sidebar</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s1">&#39;sidebar&#39;</span><span class="p">);</span>
+
+<span class="nx">sidebar</span><span class="p">.</span><span class="nx">onclick</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">event</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">event</span><span class="p">,</span> <span class="s1">&#39;clicked&#39;</span><span class="p">);</span>
+<span class="p">};</span>
+</pre></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              37/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>DOM</h1></header>
+            
+            
+            <section><ul class="simple">
+<li>Document Object Model</li>
+<li>HTML + CSS in a tree data structure</li>
+<li>JavaScript queries DOM and updates it</li>
+</ul>
+<pre><span class="kd">var</span> <span class="nx">sidebar</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s1">&#39;sidebar&#39;</span><span class="p">);</span>
+
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">sidebar</span><span class="p">.</span><span class="nx">outerHTML</span><span class="p">);</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">sidebar</span><span class="p">.</span><span class="nx">innerHTML</span><span class="p">);</span>
+<span class="nx">sidebar</span><span class="p">.</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="s1">&#39;&lt;p&gt;New content&lt;/p&gt;&#39;</span><span class="p">;</span>
+<span class="nx">sidebar</span><span class="p">.</span><span class="nx">hide</span><span class="p">();</span>
+<span class="nx">sidebar</span><span class="p">.</span><span class="nx">show</span><span class="p">();</span>
+</pre>
+
+
+<h1>Dom Overview Reference</h1>
+<p><a class="reference external" href="http://www.w3schools.com/js/js_htmldom_navigation.asp">http://www.w3schools.com/js/js_htmldom_navigation.asp</a></p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              38/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>JQuery</h1></header>
+            
+            
+            <section><ul class="simple">
+<li>Library for simpler DOM API</li>
+<li>Ajax, animation, other features added in.</li>
+</ul>
+<pre><span class="o">&lt;</span><span class="nx">script</span> <span class="nx">src</span><span class="o">=</span><span class="s2">&quot;http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js&quot;</span><span class="o">&gt;&lt;</span><span class="err">/script&gt;</span>
+</pre>
+<ul class="simple">
+<li>N.B. CDN</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              39/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Pause</h1></header>
+            
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              40/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>JavaScript Animation Example</h1></header>
+            
+            
+            <section><ul class="simple">
+<li>Change body to</li>
+</ul>
+<pre><span class="o">&lt;</span><span class="nx">body</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="nx">p</span> <span class="nx">id</span><span class="o">=</span><span class="s2">&quot;message&quot;</span><span class="o">&gt;</span><span class="nx">JavaScript</span> <span class="nx">is</span> <span class="nx">Fun</span><span class="o">&lt;</span><span class="err">/p&gt;</span>
+    <span class="o">&lt;</span><span class="nx">button</span> <span class="nx">id</span><span class="o">=</span><span class="s2">&quot;bounce&quot;</span><span class="o">&gt;</span><span class="nx">Click</span> <span class="nx">here</span> <span class="nx">to</span> <span class="nx">bounce</span><span class="o">&lt;</span><span class="err">/button&gt;</span>
+    <span class="o">&lt;</span><span class="nx">script</span><span class="o">&gt;</span>
+        <span class="nx">$</span><span class="p">(</span><span class="s2">&quot;button#bounce&quot;</span><span class="p">).</span><span class="nx">click</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+            <span class="nx">$</span><span class="p">(</span><span class="s2">&quot;p#message&quot;</span><span class="p">).</span><span class="nx">slideUp</span><span class="p">(</span><span class="mi">500</span><span class="p">).</span><span class="nx">slideDown</span><span class="p">(</span><span class="mi">500</span><span class="p">);</span>
+        <span class="p">});</span>
+    <span class="o">&lt;</span><span class="err">/script&gt;</span>
+<span class="o">&lt;</span><span class="err">/body&gt;</span>
+</pre></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              41/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>JQuery Animation Callbacks</h1></header>
+            
+            
+            <section><ul class="simple">
+<li>Change script tag to:</li>
+</ul>
+<pre><span class="nx">$</span><span class="p">(</span><span class="s2">&quot;button#bounce&quot;</span><span class="p">).</span><span class="nx">click</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nx">$</span><span class="p">(</span><span class="s2">&quot;p#message&quot;</span><span class="p">)</span>
+        <span class="p">.</span><span class="nx">slideUp</span><span class="p">(</span><span class="mi">500</span><span class="p">)</span>
+        <span class="p">.</span><span class="nx">slideDown</span><span class="p">(</span><span class="mi">500</span><span class="p">,</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+            <span class="nx">$</span><span class="p">(</span><span class="k">this</span><span class="p">).</span><span class="nx">css</span><span class="p">(</span><span class="s1">&#39;color&#39;</span><span class="p">,</span> <span class="s1">&#39;red&#39;</span><span class="p">);</span>
+        <span class="p">});</span>
+<span class="p">});</span>
+</pre></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              42/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>JQuery Animation Callbacks Continued</h1></header>
+            
+            
+            <section><ul class="simple">
+<li>Change script tag to:</li>
+</ul>
+<pre><span class="nx">$</span><span class="p">(</span><span class="s2">&quot;button#bounce&quot;</span><span class="p">).</span><span class="nx">click</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nx">$</span><span class="p">(</span><span class="s2">&quot;p#message&quot;</span><span class="p">)</span>
+        <span class="p">.</span><span class="nx">css</span><span class="p">(</span><span class="s1">&#39;color&#39;</span><span class="p">,</span> <span class="s1">&#39;red&#39;</span><span class="p">)</span>
+        <span class="p">.</span><span class="nx">slideUp</span><span class="p">(</span><span class="mi">500</span><span class="p">)</span>
+        <span class="p">.</span><span class="nx">slideDown</span><span class="p">(</span><span class="mi">500</span><span class="p">,</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+            <span class="nx">$</span><span class="p">(</span><span class="k">this</span><span class="p">).</span><span class="nx">css</span><span class="p">(</span><span class="s1">&#39;color&#39;</span><span class="p">,</span> <span class="s1">&#39;black&#39;</span><span class="p">);</span>
+        <span class="p">});</span>
+<span class="p">});</span>
+</pre></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              43/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>JQuery Animation Future-Proofing</h1></header>
+            
+            
+            <section><pre><span class="nx">$</span><span class="p">(</span><span class="s2">&quot;button#bounce&quot;</span><span class="p">).</span><span class="nx">click</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span>
+    <span class="kd">var</span> <span class="nx">$el</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;p#message&#39;</span><span class="p">),</span>
+        <span class="nx">el_orig_color</span> <span class="o">=</span> <span class="nx">$el</span><span class="p">.</span><span class="nx">css</span><span class="p">(</span><span class="s1">&#39;color&#39;</span><span class="p">);</span>
+    <span class="nx">$el</span>
+        <span class="p">.</span><span class="nx">css</span><span class="p">(</span><span class="s1">&#39;color&#39;</span><span class="p">,</span> <span class="s1">&#39;red&#39;</span><span class="p">)</span>
+        <span class="p">.</span><span class="nx">slideUp</span><span class="p">(</span><span class="mi">500</span><span class="p">)</span>
+        <span class="p">.</span><span class="nx">slideDown</span><span class="p">(</span><span class="mi">500</span><span class="p">,</span> <span class="kd">function</span><span class="p">(){</span>
+            <span class="nx">$</span><span class="p">(</span><span class="k">this</span><span class="p">).</span><span class="nx">css</span><span class="p">(</span><span class="s1">&#39;color&#39;</span><span class="p">,</span> <span class="nx">el_orig_color</span><span class="p">);</span>
+        <span class="p">});</span>
+<span class="p">});</span>
+</pre></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              44/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Pause</h1></header>
+            
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              45/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>JavaScript Chain Select Example</h1></header>
+            
+            
+            <section><p>Saved in a fiddle - <a class="reference external" href="http://jsfiddle.net/sz7n3vrj/">http://jsfiddle.net/sz7n3vrj/</a></p>
+<ul class="simple">
+<li>Be sure jQuery is loaded</li>
+</ul>
+<pre>// HTML body
+<span class="nt">&lt;form&gt;</span>
+  <span class="nt">&lt;label&gt;</span>Make:<span class="nt">&lt;/label&gt;</span>
+  <span class="nt">&lt;select</span> <span class="na">name=</span><span class="s">&quot;make&quot;</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">&quot;ford&quot;</span><span class="nt">&gt;</span>Ford<span class="nt">&lt;/option&gt;</span>
+      <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">&quot;chev&quot;</span><span class="nt">&gt;</span>Chevrolet<span class="nt">&lt;/option&gt;</span>
+      <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">&quot;toyo&quot;</span><span class="nt">&gt;</span>Toyota<span class="nt">&lt;/option&gt;</span>
+      <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">&quot;volk&quot;</span><span class="nt">&gt;</span>Volkswagen<span class="nt">&lt;/option&gt;</span>
+  <span class="nt">&lt;/select&gt;</span>
+  <span class="nt">&lt;br/&gt;</span>
+  <span class="nt">&lt;label&gt;</span>Model:<span class="nt">&lt;/label&gt;</span>
+  <span class="nt">&lt;select</span> <span class="na">name=</span><span class="s">&quot;model&quot;</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">&quot;NA&quot;</span><span class="nt">&gt;</span>--Please choose a Make--<span class="nt">&lt;/option&gt;</span>
+  <span class="nt">&lt;/select&gt;</span>
+  <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;submit&quot;</span> <span class="na">value=</span><span class="s">&quot;Submit&quot;</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/form&gt;</span>
+</pre></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              46/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>JavaScript Chain Select Continued</h1></header>
+            
+            
+            <section><pre><span class="c1">// JavaScript</span>
+<span class="kd">var</span> <span class="nx">make_model_lookup</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="s1">&#39;ford&#39;</span><span class="o">:</span> <span class="p">[</span>
+      <span class="p">[</span><span class="s1">&#39;taur&#39;</span><span class="p">,</span> <span class="s1">&#39;Taurus&#39;</span><span class="p">],</span>
+      <span class="p">[</span><span class="s1">&#39;esco&#39;</span><span class="p">,</span> <span class="s1">&#39;Escort&#39;</span><span class="p">]</span>
+  <span class="p">],</span>
+  <span class="s1">&#39;chev&#39;</span><span class="o">:</span> <span class="p">[</span>
+      <span class="p">[</span><span class="s1">&#39;cava&#39;</span><span class="p">,</span> <span class="s1">&#39;Cavalier&#39;</span><span class="p">],</span>
+      <span class="p">[</span><span class="s1">&#39;volt&#39;</span><span class="p">,</span> <span class="s1">&#39;Volt&#39;</span><span class="p">]</span>
+  <span class="p">],</span>
+  <span class="s1">&#39;toyo&#39;</span><span class="o">:</span> <span class="p">[</span>
+      <span class="p">[</span><span class="s1">&#39;camr&#39;</span><span class="p">,</span> <span class="s1">&#39;Camry&#39;</span><span class="p">],</span>
+      <span class="p">[</span><span class="s1">&#39;coro&#39;</span><span class="p">,</span> <span class="s1">&#39;Corolla&#39;</span><span class="p">]</span>
+  <span class="p">],</span>
+  <span class="s1">&#39;volk&#39;</span><span class="o">:</span> <span class="p">[</span>
+      <span class="p">[</span><span class="s1">&#39;jett&#39;</span><span class="p">,</span> <span class="s1">&#39;Jetta&#39;</span><span class="p">],</span>
+      <span class="p">[</span><span class="s1">&#39;golf&#39;</span><span class="p">,</span> <span class="s1">&#39;Golf&#39;</span><span class="p">]</span>
+  <span class="p">]</span>
+<span class="p">};</span>
+</pre></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              47/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>More JS</h1></header>
+            
+            
+            <section><pre><span class="nx">$</span><span class="p">(</span><span class="s1">&#39;select[name=make]&#39;</span><span class="p">).</span><span class="nx">change</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+  <span class="kd">var</span> <span class="nx">$select_model</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;select[name=model]&#39;</span><span class="p">),</span>
+      <span class="nx">make_value</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">value</span><span class="p">,</span>
+      <span class="nx">model_options_list</span> <span class="o">=</span> <span class="nx">make_model_lookup</span><span class="p">[</span><span class="nx">make_value</span><span class="p">];</span>
+  <span class="nx">$select_model</span><span class="p">.</span><span class="nx">find</span><span class="p">(</span><span class="s1">&#39;option&#39;</span><span class="p">).</span><span class="nx">remove</span><span class="p">();</span>
+  <span class="k">for</span><span class="p">(</span><span class="kd">var</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">model_options_list</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+      <span class="kd">var</span> <span class="nx">model_value</span> <span class="o">=</span> <span class="nx">model_options_list</span><span class="p">[</span><span class="nx">i</span><span class="p">][</span><span class="mi">0</span><span class="p">],</span>
+          <span class="nx">model_display_value</span> <span class="o">=</span> <span class="nx">model_options_list</span><span class="p">[</span><span class="nx">i</span><span class="p">][</span><span class="mi">1</span><span class="p">];</span>
+      <span class="kd">var</span> <span class="nx">model_option</span> <span class="o">=</span>
+          <span class="s1">&#39;&lt;option value=&quot;&#39;</span> <span class="o">+</span> <span class="nx">model_value</span> <span class="o">+</span> <span class="s1">&#39;&quot;&gt;&#39;</span> <span class="o">+</span>
+          <span class="nx">model_display_value</span> <span class="o">+</span> <span class="s1">&#39;&lt;/option&gt;&#39;</span><span class="p">;</span>
+      <span class="nx">$select_model</span><span class="p">.</span><span class="nx">append</span><span class="p">(</span><span class="nx">model_option</span><span class="p">);</span>
+  <span class="p">}</span>
+<span class="p">});</span>
+</pre></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              48/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>JavaScript Chain Select</h1></header>
+            
+            
+            <section><ul class="simple">
+<li>select &quot;Make&quot; - On change event, sets options for model select</li>
+<li>.change() - Takes a function as an argument.</li>
+<li>hardcoded lookup table - Might be AJAX in context</li>
+<li>N.B. select options for &quot;make&quot; must line up with lookup table</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              49/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Pause</h1></header>
+            
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              50/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>JavaScript Warts</h1></header>
+            
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              51/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>JavaScript Variables</h1></header>
+            
+            
+            <section><ul class="simple">
+<li>global by default - use var</li>
+</ul>
+<pre><span class="nx">x</span> <span class="o">=</span> <span class="mi">3</span>
+<span class="c1">// ...</span>
+<span class="kd">var</span> <span class="nx">weird_add</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">a</span><span class="p">,</span> <span class="nx">b</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">x</span> <span class="o">=</span> <span class="nx">a</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+    <span class="nx">y</span> <span class="o">=</span> <span class="nx">b</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+    <span class="k">return</span> <span class="nx">x</span> <span class="o">+</span> <span class="nx">y</span> <span class="o">-</span> <span class="mi">2</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">weird_add</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">));</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">x</span><span class="p">);</span>
+</pre>
+<pre><span class="kd">var</span> <span class="nx">x</span> <span class="o">=</span> <span class="mi">3</span>
+<span class="c1">// ...</span>
+<span class="kd">var</span> <span class="nx">weird_add</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">a</span><span class="p">,</span> <span class="nx">b</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">x</span> <span class="o">=</span> <span class="nx">a</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+    <span class="kd">var</span> <span class="nx">y</span> <span class="o">=</span> <span class="nx">b</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+    <span class="k">return</span> <span class="nx">x</span> <span class="o">+</span> <span class="nx">y</span> <span class="o">-</span> <span class="mi">2</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">weird_add</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">));</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">x</span><span class="p">);</span>
+</pre></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              52/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>JavaScript Weak Types</h1></header>
+            
+            
+            <section><pre><span class="s2">&quot;37&quot;</span> <span class="o">-</span> <span class="mi">7</span> <span class="c1">// 30</span>
+<span class="s2">&quot;37&quot;</span> <span class="o">+</span> <span class="mi">7</span> <span class="c1">// &quot;377&quot;</span>
+</pre></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              53/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>JavaScript Equality</h1></header>
+            
+            
+            <section><img alt="slides/../_static/images/js-equality.png" src="slides/../_static/images/js-equality.png" style="width: 650px; height: 525px;" />
+<p>(image credit <a class="reference external" href="https://www.bram.us/2015/01/18/equality-in-javascript/">https://www.bram.us/2015/01/18/equality-in-javascript/</a>)</p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              54/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>JavaScript this</h1></header>
+            
+            
+            <section><ul class="simple">
+<li><strong>this</strong> can be window</li>
+</ul>
+<pre>  <span class="nx">$</span><span class="p">(</span><span class="s2">&quot;button#bounce&quot;</span><span class="p">).</span><span class="nx">click</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+      <span class="nx">$</span><span class="p">(</span><span class="s2">&quot;p#message&quot;</span><span class="p">)</span>
+          <span class="p">.</span><span class="nx">slideUp</span><span class="p">(</span><span class="mi">500</span><span class="p">)</span>
+          <span class="p">.</span><span class="nx">slideDown</span><span class="p">(</span><span class="mi">500</span><span class="p">,</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+              <span class="c1">// Here, this is the current element</span>
+              <span class="nx">$</span><span class="p">(</span><span class="k">this</span><span class="p">).</span><span class="nx">css</span><span class="p">(</span><span class="s1">&#39;color&#39;</span><span class="p">,</span> <span class="s1">&#39;red&#39;</span><span class="p">);</span>
+          <span class="p">});</span>
+  <span class="p">});</span>
+
+<span class="c1">// Here, this is the window</span>
+<span class="k">this</span> <span class="o">===</span> <span class="nb">window</span><span class="p">;</span> <span class="c1">// true</span>
+<span class="k">this</span><span class="p">.</span><span class="nb">document</span> <span class="o">===</span> <span class="nb">document</span><span class="p">;</span> <span class="c1">// true</span>
+</pre>
+<ul class="simple">
+<li>unless using &quot;use string&quot;;</li>
+</ul>
+<p><a class="reference external" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this</a></p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              55/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>JavaScript 'use strict'</h1></header>
+            
+            
+            <section><ul class="simple">
+<li>Add the following</li>
+</ul>
+<pre><span class="c1">// top of file</span>
+<span class="s1">&#39;use strict&#39;</span><span class="p">;</span>
+
+<span class="c1">// OR</span>
+
+<span class="kd">function</span> <span class="nx">func</span><span class="p">(</span><span class="nx">arg</span><span class="p">)</span> <span class="p">{</span>
+    <span class="s1">&#39;use strict&#39;</span><span class="p">;</span>
+    <span class="c1">// ... function body</span>
+    <span class="k">return</span> <span class="nx">x</span>
+<span class="p">}</span>
+</pre></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              56/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Browsers Are Weird</h1></header>
+            
+            
+            <section><p>JavaScript and the DOM are often quirky</p>
+<ul class="simple">
+<li>There are many browsers</li>
+<li>Not every browser plays by the rules</li>
+</ul>
+<ol class="arabic simple">
+<li>Start with Chrome or Firefox</li>
+<li>If you started with Chrome, make it work for FF or vice-versa</li>
+<li>Troubleshoot where your pages don't work in IE, safari or on mobile</li>
+</ol></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              57/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides/part-1.rst -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Questions?</h1></header>
+            
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="slides/part-1.rst">slides/part-1.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              58/58
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+  <div id="toc" class="sidebar hidden">
+    <h2>Table of Contents</h2>
+    <table>
+      <caption>Table of Contents</caption>
+      
+      <tr id="toc-row-1">
+        <th><a href="#slide1">Getting Started with Front-End Web Development</a></th>
+        <td><a href="#slide1">1</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-2">
+        <th><a href="#slide2">HTML Reference</a></th>
+        <td><a href="#slide2">2</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-3">
+        <th><a href="#slide3">HTML Overview</a></th>
+        <td><a href="#slide3">3</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-4">
+        <th><a href="#slide4">History</a></th>
+        <td><a href="#slide4">4</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-5">
+        <th><a href="#slide5">Semantics</a></th>
+        <td><a href="#slide5">5</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-6">
+        <th><a href="#slide6">HTML Tags</a></th>
+        <td><a href="#slide6">6</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-7">
+        <th><a href="#slide7">JSFiddle</a></th>
+        <td><a href="#slide7">7</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-8">
+        <th><a href="#slide8">HTML Attributes</a></th>
+        <td><a href="#slide8">8</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-9">
+        <th><a href="#slide9">Example Content Tags</a></th>
+        <td><a href="#slide9">9</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-10">
+        <th><a href="#slide10">Nesting Warning</a></th>
+        <td><a href="#slide10">10</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-11">
+        <th><a href="#slide11">HTML Entities</a></th>
+        <td><a href="#slide11">11</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-12">
+        <th><a href="#slide12">Pause</a></th>
+        <td><a href="#slide12">12</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-13">
+        <th><a href="#slide13">Semantic Tags</a></th>
+        <td><a href="#slide13">13</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-14">
+        <th><a href="#slide14">Id vs. Class</a></th>
+        <td><a href="#slide14">14</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-15">
+        <th><a href="#slide15">CSS</a></th>
+        <td><a href="#slide15">15</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-16">
+        <th><a href="#slide16">Reference</a></th>
+        <td><a href="#slide16">16</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-17">
+        <th><a href="#slide17">CSS Syntax</a></th>
+        <td><a href="#slide17">17</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-18">
+        <th><a href="#slide18">CSS Syntax Example</a></th>
+        <td><a href="#slide18">18</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-19">
+        <th><a href="#slide19">CSS Semantics</a></th>
+        <td><a href="#slide19">19</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-20">
+        <th><a href="#slide20">Id vs. Class</a></th>
+        <td><a href="#slide20">20</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-21">
+        <th><a href="#slide21">CSS Selectors</a></th>
+        <td><a href="#slide21">21</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-22">
+        <th><a href="#slide22">CSS Selector Group</a></th>
+        <td><a href="#slide22">22</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-23">
+        <th><a href="#slide23">CSS Descendant Combinator</a></th>
+        <td><a href="#slide23">23</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-24">
+        <th><a href="#slide24">CSS Selectors</a></th>
+        <td><a href="#slide24">24</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-25">
+        <th><a href="#slide25">Fiddle with Box Model</a></th>
+        <td><a href="#slide25">25</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-26">
+        <th><a href="#slide26">Pause</a></th>
+        <td><a href="#slide26">26</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-27">
+        <th><a href="#slide27">Local Setup</a></th>
+        <td><a href="#slide27">27</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-28">
+        <th><a href="#slide28">Chrome Inspector Tools</a></th>
+        <td><a href="#slide28">28</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-29">
+        <th><a href="#slide29">JavaScript</a></th>
+        <td><a href="#slide29">29</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-30">
+        <th><a href="#slide30">Reference</a></th>
+        <td><a href="#slide30">30</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-31">
+        <th><a href="#slide31">JavaScript</a></th>
+        <td><a href="#slide31">31</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-32">
+        <th><a href="#slide32">JavaScript Design</a></th>
+        <td><a href="#slide32">32</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-33">
+        <th><a href="#slide33">JavaScript Syntax</a></th>
+        <td><a href="#slide33">33</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-34">
+        <th><a href="#slide34">JavaScript Data</a></th>
+        <td><a href="#slide34">34</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-35">
+        <th><a href="#slide35">Functions</a></th>
+        <td><a href="#slide35">35</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-36">
+        <th><a href="#slide36">Functions</a></th>
+        <td><a href="#slide36">36</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-37">
+        <th><a href="#slide37">Inline Function</a></th>
+        <td><a href="#slide37">37</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-38">
+        <th><a href="#slide38">DOM</a></th>
+        <td><a href="#slide38">38</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-39">
+        <th><a href="#slide39">JQuery</a></th>
+        <td><a href="#slide39">39</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-40">
+        <th><a href="#slide40">Pause</a></th>
+        <td><a href="#slide40">40</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-41">
+        <th><a href="#slide41">JavaScript Animation Example</a></th>
+        <td><a href="#slide41">41</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-42">
+        <th><a href="#slide42">JQuery Animation Callbacks</a></th>
+        <td><a href="#slide42">42</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-43">
+        <th><a href="#slide43">JQuery Animation Callbacks Continued</a></th>
+        <td><a href="#slide43">43</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-44">
+        <th><a href="#slide44">JQuery Animation Future-Proofing</a></th>
+        <td><a href="#slide44">44</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-45">
+        <th><a href="#slide45">Pause</a></th>
+        <td><a href="#slide45">45</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-46">
+        <th><a href="#slide46">JavaScript Chain Select Example</a></th>
+        <td><a href="#slide46">46</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-47">
+        <th><a href="#slide47">JavaScript Chain Select Continued</a></th>
+        <td><a href="#slide47">47</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-48">
+        <th><a href="#slide48">More JS</a></th>
+        <td><a href="#slide48">48</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-49">
+        <th><a href="#slide49">JavaScript Chain Select</a></th>
+        <td><a href="#slide49">49</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-50">
+        <th><a href="#slide50">Pause</a></th>
+        <td><a href="#slide50">50</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-51">
+        <th><a href="#slide51">JavaScript Warts</a></th>
+        <td><a href="#slide51">51</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-52">
+        <th><a href="#slide52">JavaScript Variables</a></th>
+        <td><a href="#slide52">52</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-53">
+        <th><a href="#slide53">JavaScript Weak Types</a></th>
+        <td><a href="#slide53">53</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-54">
+        <th><a href="#slide54">JavaScript Equality</a></th>
+        <td><a href="#slide54">54</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-55">
+        <th><a href="#slide55">JavaScript this</a></th>
+        <td><a href="#slide55">55</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-56">
+        <th><a href="#slide56">JavaScript 'use strict'</a></th>
+        <td><a href="#slide56">56</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-57">
+        <th><a href="#slide57">Browsers Are Weird</a></th>
+        <td><a href="#slide57">57</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-58">
+        <th><a href="#slide58">Questions?</a></th>
+        <td><a href="#slide58">58</a></td>
+      </tr>
+      
+      
+    </table>
+  </div>
+  
+  <div id="help" class="sidebar hidden">
+    <h2>Help</h2>
+    <table>
+      <caption>Help</caption>
+      <tr>
+        <th>Table of Contents</th>
+        <td>t</td>
+      </tr>
+      <tr>
+        <th>Exposé</th>
+        <td>ESC</td>
+      </tr>
+      <tr>
+        <th>Full screen slides</th>
+        <td>e</td>
+      </tr>
+      <tr>
+        <th>Presenter View</th>
+        <td>p</td>
+      </tr>
+      <tr>
+        <th>Source Files</th>
+        <td>s</td>
+      </tr>
+      <tr>
+        <th>Slide Numbers</th>
+        <td>n</td>
+      </tr>
+      <tr>
+        <th>Toggle screen blanking</th>
+        <td>b</td>
+      </tr>
+      <tr>
+        <th>Show/hide slide context</th>
+        <td>c</td>
+      </tr>
+      <tr>
+        <th>Notes</th>
+        <td>2</td>
+      </tr>
+      <tr>
+        <th>Help</th>
+        <td>h</td>
+      </tr>
+    </table>
+  </div>
+  <script>main()</script>
+</body>
+</html>
