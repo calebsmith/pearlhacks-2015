@@ -322,7 +322,7 @@ CSS Selectors
 
     <p class="emphasized">Content</p>
 
-    <span class="emphasized><p>Content</p></span>
+    <span class="emphasized"><p>Content</p></span>
 
 .. sourcecode:: css
 
@@ -331,8 +331,8 @@ CSS Selectors
         font-weight: bold;
     }
 
-    // A p tag of an emphasized class element (likely div or span)
-    p .emphasized {
+    // A p tag inside of an emphasized class element (likely div or span)
+    .emphasized p {
         font-weight: bold;
     }
 
