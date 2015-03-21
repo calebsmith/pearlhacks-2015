@@ -3,6 +3,13 @@ Getting Started with Front-End Web Development
 
 ----
 
+View Slides Here
+----------------------------------------------------------------
+
+http://bit.ly/pearlhacks2015
+
+----
+
 
 HTML Reference
 ---------------------------------------------------------------
