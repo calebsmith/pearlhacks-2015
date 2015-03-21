@@ -1,0 +1,8 @@
+*.pyc
+*.pyo
+*~
+_build/*
+presentation.html
+part-*.html
+slides-encrypted.pdf
+theme/
