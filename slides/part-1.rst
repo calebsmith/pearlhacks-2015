@@ -746,11 +746,7 @@ JavaScript Weak Types
 JavaScript Equality
 ----------------------------------------------------------------
 
-.. image:: ../_static/images/js-equality.png
-    :height: 525 px
-    :width: 650 px
-
-(image credit https://www.bram.us/2015/01/18/equality-in-javascript/)
+https://www.bram.us/2015/01/18/equality-in-javascript/
 
 ----
 
