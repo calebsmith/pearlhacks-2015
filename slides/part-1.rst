@@ -497,6 +497,11 @@ Dom Overview Reference
 
 http://www.w3schools.com/js/js_htmldom_navigation.asp
 
+.. sourcecode:: javascript
+
+    var sidebar = $('#sidebar');
+    sidebar.html('<p>New Content</p>');
+
 ----
 
 JQuery
